@@ -1,0 +1,12 @@
+{
+    "date": "Wed Nov 21 17:20:53 CET 2018",
+    "name": "ISOCountries",
+    "format": "xml",
+    "description": "Countries (ISO 3166-1)",
+    "repository": {
+        "type": "url",
+        "url": "https://www.simplicite.io/resources/modules/isocountries-app-4.0.xml"
+    },
+    "version": "4.0",
+    "dependencies": [{"Simplicite": "4.0"}]
+}
