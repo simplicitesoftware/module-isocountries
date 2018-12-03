@@ -242,7 +242,7 @@
 		<obo_dbtable>iso_country</obo_dbtable>
 		<obo_class/>
 		<obo_script_id/>
-		<obo_usets>1</obo_usets>
+		<obo_usets>0</obo_usets>
 		<obo_nosearch>0</obo_nosearch>
 		<obo_comment><![CDATA[ISO 3166-1 country]]></obo_comment>
 		<obo_type>O</obo_type>
