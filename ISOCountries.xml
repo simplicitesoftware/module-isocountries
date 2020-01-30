@@ -643,8 +643,8 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 	<action>upsert</action>
 	<data>
 		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
-		<dt_name>ISOCountries-data-20200130184355</dt_name>
-		<dt_file>data/ISOCountries-data-20200130184355.zip</dt_file>
+		<dt_name>ISOCountries-data</dt_name>
+		<dt_file>data/ISOCountries-data.zip</dt_file>
 		<dt_desc><![CDATA[Created by module's data export on 2020-01-30 18:43:55]]></dt_desc>
 	</data>
 </object>
