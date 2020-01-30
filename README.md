@@ -11,7 +11,33 @@
 `ISOCountries` module definition
 ================================
 
+### Introduction
+
 Countries (ISO 3166-1)
+
+### Import
+
+To import this module:
+
+- Create a module named `ISOCountries`
+- Set the settings as:
+
+```json
+{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-isocountries.git"
+	}
+}
+```
+
+- Click on the _Import module_ button
+
+### Load data
+
+Sample data is provided as a module's dataset.
+
+Open this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.
 
 `ISOCountry` business object definition
 ---------------------------------------

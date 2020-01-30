@@ -1,10 +1,10 @@
 {
-    "date": "Wed Nov 21 17:20:53 CET 2018",
+    "date": "Thu Jan 30 18:43:50 CET 2020",
     "name": "ISOCountries",
     "format": "xml",
-    "description": "Countries (ISO 3166-1)",
+    "description": "### Introduction\n\nCountries (ISO 3166-1)\n\n### Import\n\nTo import this module:\n\n- Create a module named `ISOCountries`\n- Set the settings as:\n\n```json\n{\n\t\"type\": \"git\",\n\t\"origin\": {\n\t\t\"uri\": \"https://github.com/simplicitesoftware/module-isocountries.git\"\n\t}\n}\n```\n\n- Click on the _Import module_ button\n\n### Load data\n\nSample data is provided as a module's dataset.\n\nOpen this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.",
     "files": ["ISOCountries.xml"],
-    "repository": {},
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-isocountries.git"}},
     "version": "4.0",
     "dependencies": [{"Simplicite": "4.0"}]
 }
