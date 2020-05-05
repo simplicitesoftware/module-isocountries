@@ -11,6 +11,8 @@
 `ISOCountries` module definition
 ================================
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-ISOCountries&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-ISOCountries)
+
 ### Introduction
 
 Countries (ISO 3166-1)
@@ -52,8 +54,4 @@ ISO 3166-1 country
 | `isoCtyCode2`                                                | char(2)                                  | yes*     | yes       |          | Country code (2 letters)                                                         |
 | `isoCtyCode3`                                                | char(3)                                  |          | yes       |          | Country code (3 letters)                                                         |
 | `isoCtyIndependent`                                          | boolean                                  | yes      | yes       |          | Independent country?                                                             |
-
-### Custom actions
-
-No custom action
 
