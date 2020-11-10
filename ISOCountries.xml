@@ -105,7 +105,6 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_tray/>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>2</fld_size>
@@ -120,6 +119,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Country code (2 letters)]]></fld_comment>
@@ -142,7 +142,6 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_tray/>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>3</fld_size>
@@ -157,6 +156,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Country code (3 letters)]]></fld_comment>
@@ -179,7 +179,6 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_tray/>
 		<fld_type>8</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>1</fld_size>
@@ -194,6 +193,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Independent country?]]></fld_comment>
@@ -216,7 +216,6 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_tray/>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>100</fld_size>
@@ -231,6 +230,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Country name]]></fld_comment>
@@ -329,6 +329,8 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obo_btn_merge>P</obo_btn_merge>
 		<obo_btn_save>1</obo_btn_save>
 		<obo_btn_saveclose>1</obo_btn_saveclose>
+		<obo_btn_savenew>1</obo_btn_savenew>
+		<obo_btn_savecopy>1</obo_btn_savecopy>
 		<obo_btn_close>1</obo_btn_close>
 		<obo_tray>1</obo_tray>
 		<obo_dashboard>1</obo_dashboard>
