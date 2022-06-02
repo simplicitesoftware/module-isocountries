@@ -1,9 +1,9 @@
 {
-    "date": "2021-10-01 18:22:04",
+    "date": "2022-06-02 15:28:56",
     "name": "ISOCountries",
     "format": "xml",
     "files": ["ISOCountries.xml"],
     "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-isocountries.git"}},
     "version": "5",
-    "platform": "5.2.0-beta"
+    "platform": "5.2.5"
 }
