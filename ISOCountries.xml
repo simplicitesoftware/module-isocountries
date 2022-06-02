@@ -305,7 +305,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obo_list_edit>U</obo_list_edit>
 		<obo_useform>1</obo_useform>
 		<obo_title/>
-		<obo_icon>url</obo_icon>
+		<obo_icon>fas/globe</obo_icon>
 		<obo_refcount>1</obo_refcount>
 		<obo_tree>0</obo_tree>
 		<obo_viewmode>V</obo_viewmode>
@@ -335,7 +335,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obo_btn_close>1</obo_btn_close>
 		<obo_tray>1</obo_tray>
 		<obo_dashboard>1</obo_dashboard>
-		<obo_prefix/>
+		<obo_prefix>cty</obo_prefix>
 		<obo_search_ts/>
 		<obo_minrows/>
 		<obo_maxrows/>
