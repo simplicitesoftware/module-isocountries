@@ -120,6 +120,9 @@ components:
     ISOCountry:
       type: object
       properties:
+        isoCtyFlag:
+          description: Flag
+          type: object
         isoCtyCode3:
           description: Country code (3 letters)
           type: string
@@ -143,6 +146,8 @@ components:
       bearerFormat: Simplicite token
       scheme: bearer
       type: http
+servers:
+- url: /api
 openapi: 3.0.2
 paths:
   /login:
@@ -197,7 +202,7 @@ paths:
       - session
   /rest/ISOCountry/{row_id}:
     post:
-      summary: Create a new ISOCountrybusiness object record
+      summary: Create a new ISOCountry business object record
       security:
       - bearerAuth: []
       requestBody:
@@ -341,7 +346,7 @@ paths:
       tags:
       - ISOCountry
     put:
-      summary: Update a ISOCountrybusiness object record
+      summary: Update a ISOCountry business object record
       security:
       - bearerAuth: []
       requestBody:
@@ -464,6 +469,12 @@ paths:
         in: query
         name: isoCtyIndependent
         description: Search filter for Independent country?
+        required: false
+      - schema:
+          type: string
+        in: query
+        name: isoCtyFlag
+        description: Search filter for Flag
         required: false
       tags:
       - ISOCountry

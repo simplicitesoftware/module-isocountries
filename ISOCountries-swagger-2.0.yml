@@ -3,6 +3,7 @@
 # \__ \ | '  \| '_ \ | / _| |  _/ -_)
 # |___/_|_|_|_| .__/_|_\__|_|\__\___|
 #             |_| Module: ISOCountries 5
+basePath: /api
 paths:
   /login:
     get:
@@ -51,7 +52,7 @@ paths:
       - session
   /rest/ISOCountry/{row_id}:
     post:
-      summary: Create a new ISOCountrybusiness object record
+      summary: Create a new ISOCountry business object record
       security:
       - bearerAuth: []
       produces:
@@ -170,7 +171,7 @@ paths:
       tags:
       - ISOCountry
     put:
-      summary: Update a ISOCountrybusiness object record
+      summary: Update a ISOCountry business object record
       security:
       - bearerAuth: []
       produces:
@@ -273,6 +274,11 @@ paths:
         name: isoCtyIndependent
         description: Search filter for Independent country?
         type: boolean
+        required: false
+      - in: query
+        name: isoCtyFlag
+        description: Search filter for Flag
+        type: string
         required: false
       tags:
       - ISOCountry
@@ -422,6 +428,9 @@ definitions:
   ISOCountry:
     type: object
     properties:
+      isoCtyFlag:
+        description: Flag
+        type: object
       isoCtyCode3:
         description: Country code (3 letters)
         type: string
