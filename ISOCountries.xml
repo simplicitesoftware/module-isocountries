@@ -107,7 +107,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
-		<fld_copy>1</fld_copy>
+		<fld_copy>0</fld_copy>
 		<fld_size>2</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
@@ -116,7 +116,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
-		<fld_updall>1</fld_updall>
+		<fld_updall>0</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
@@ -133,7 +133,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_dbname>cty_code3</fld_dbname>
 		<fld_visible>3</fld_visible>
 		<fld_updatable>1</fld_updatable>
-		<fld_required>0</fld_required>
+		<fld_required>1</fld_required>
 		<fld_fonctid>0</fld_fonctid>
 		<fld_research>1</fld_research>
 		<fld_researchreq>0</fld_researchreq>
@@ -146,7 +146,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
-		<fld_copy>1</fld_copy>
+		<fld_copy>0</fld_copy>
 		<fld_size>3</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
@@ -155,7 +155,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
-		<fld_updall>1</fld_updall>
+		<fld_updall>0</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
@@ -168,8 +168,86 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_incrementsyntax/>
 	</data>
 	<data>
+		<fld_name>isoCtyCodeNum</fld_name>
+		<fld_dbname>iso_cty_code_num</fld_dbname>
+		<fld_visible>3</fld_visible>
+		<fld_updatable>1</fld_updatable>
+		<fld_required>1</fld_required>
+		<fld_fonctid>0</fld_fonctid>
+		<fld_research>1</fld_research>
+		<fld_researchreq>0</fld_researchreq>
+		<fld_sort>C</fld_sort>
+		<fld_more>0</fld_more>
+		<fld_listmore>0</fld_listmore>
+		<fld_listsum/>
+		<fld_exportable>1</fld_exportable>
+		<fld_tray/>
+		<fld_type>15</fld_type>
+		<fld_type_id.flt_code>NUM</fld_type_id.flt_code>
+		<fld_list_id.lov_name/>
+		<fld_copy>0</fld_copy>
+		<fld_size>3</fld_size>
+		<fld_minsize/>
+		<fld_precision/>
+		<fld_fromdate_id.fld_name/>
+		<fld_dfault/>
+		<fld_indexable>0</fld_indexable>
+		<fld_autocomp>0</fld_autocomp>
+		<fld_groupby>0</fld_groupby>
+		<fld_updall>0</fld_updall>
+		<fld_case/>
+		<fld_righttoleft>0</fld_righttoleft>
+		<fld_rendering/>
+		<fld_speech/>
+		<fld_calc/>
+		<fld_objlist/>
+		<fld_comment/>
+		<fld_classification/>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+		<fld_incrementsyntax/>
+	</data>
+	<data>
 		<fld_name>isoCtyFlag</fld_name>
 		<fld_dbname>iso_cty_flag</fld_dbname>
+		<fld_visible>2</fld_visible>
+		<fld_updatable>1</fld_updatable>
+		<fld_required>0</fld_required>
+		<fld_fonctid>0</fld_fonctid>
+		<fld_research/>
+		<fld_researchreq/>
+		<fld_sort>C</fld_sort>
+		<fld_more>0</fld_more>
+		<fld_listmore>0</fld_listmore>
+		<fld_listsum/>
+		<fld_exportable>1</fld_exportable>
+		<fld_tray/>
+		<fld_type>20</fld_type>
+		<fld_type_id.flt_code/>
+		<fld_list_id.lov_name/>
+		<fld_copy>0</fld_copy>
+		<fld_size>11</fld_size>
+		<fld_minsize/>
+		<fld_precision>32</fld_precision>
+		<fld_fromdate_id.fld_name/>
+		<fld_dfault/>
+		<fld_indexable>0</fld_indexable>
+		<fld_autocomp>0</fld_autocomp>
+		<fld_groupby>0</fld_groupby>
+		<fld_updall>0</fld_updall>
+		<fld_case/>
+		<fld_righttoleft>0</fld_righttoleft>
+		<fld_rendering/>
+		<fld_speech/>
+		<fld_calc/>
+		<fld_objlist/>
+		<fld_comment/>
+		<fld_classification/>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+		<fld_incrementsyntax/>
+	</data>
+	<data>
+		<fld_name>isoCtyFlagIcon</fld_name>
+		<fld_dbname>iso_cty_flag_icon</fld_dbname>
 		<fld_visible>3</fld_visible>
 		<fld_updatable>1</fld_updatable>
 		<fld_required>0</fld_required>
@@ -185,7 +263,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_type>20</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
-		<fld_copy>1</fld_copy>
+		<fld_copy>0</fld_copy>
 		<fld_size>11</fld_size>
 		<fld_minsize/>
 		<fld_precision>32</fld_precision>
@@ -194,7 +272,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
-		<fld_updall>1</fld_updall>
+		<fld_updall>0</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
@@ -224,7 +302,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_type>8</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
-		<fld_copy>1</fld_copy>
+		<fld_copy>0</fld_copy>
 		<fld_size>1</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
@@ -233,7 +311,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
-		<fld_updall>1</fld_updall>
+		<fld_updall>0</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
@@ -263,7 +341,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
-		<fld_copy>1</fld_copy>
+		<fld_copy>0</fld_copy>
 		<fld_size>100</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
@@ -272,7 +350,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_indexable>1</fld_indexable>
 		<fld_autocomp>1</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
-		<fld_updall>1</fld_updall>
+		<fld_updall>0</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
@@ -305,7 +383,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<ofa_title>1</ofa_title>
 		<ofa_ui><![CDATA[<div>
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-6">
       <div class="field" data-field="isoCtyName"></div>
     </div>
     <div class="col-sm-2">
@@ -314,13 +392,19 @@ Open this dataset and click on the _Apply_ button after having imported the modu
     <div class="col-sm-2">
       <div class="field" data-field="isoCtyFlag"></div>
     </div>
+    <div class="col-sm-2">
+      <div class="field" data-field="isoCtyFlagIcon"></div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <div class="field" data-field="isoCtyCode2"></div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <div class="field" data-field="isoCtyCode3"></div>
+    </div>
+    <div class="col-sm-4">
+      <div class="field" data-field="isoCtyCodeNum"></div>
     </div>
   </div>
 </div>]]></ofa_ui>
@@ -349,12 +433,12 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obo_groupby>0</obo_groupby>
 		<obo_dfltref/>
 		<obo_template_id.tpl_name>ISOCountry</obo_template_id.tpl_name>
-		<obo_copy>1</obo_copy>
+		<obo_copy>0</obo_copy>
 		<obo_export>1</obo_export>
 		<obo_pagine>1</obo_pagine>
 		<obo_srh_predef>1</obo_srh_predef>
 		<obo_selrow>1</obo_selrow>
-		<obo_updall>1</obo_updall>
+		<obo_updall>0</obo_updall>
 		<obo_delall>1</obo_delall>
 		<obo_listsearch>1</obo_listsearch>
 		<obo_list_edit>U</obo_list_edit>
@@ -500,9 +584,41 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 	</data>
 	<data>
 		<obf_object_id.obo_name>ISOCountry</obf_object_id.obo_name>
+		<obf_field_id.fld_name>isoCtyCodeNum</obf_field_id.fld_name>
+		<obf_field_id.fld_type>15</obf_field_id.fld_type>
+		<obf_order>1030</obf_order>
+		<obf_group_by/>
+		<obf_dfault_order/>
+		<obf_input/>
+		<obf_ref_field_id.fld_name/>
+		<obf_ref_object_id.obo_name/>
+		<obf_cascad/>
+		<obf_card/>
+		<obf_visible/>
+		<obf_ref_export>1</obf_ref_export>
+		<obf_copy/>
+		<obf_ref_order/>
+		<obf_fld_visible/>
+		<obf_fld_required/>
+		<obf_fld_updatable/>
+		<obf_fld_research/>
+		<obf_fld_more/>
+		<obf_fld_listmore/>
+		<obf_fld_researchreq/>
+		<obf_fld_dfault/>
+		<obf_field_id.fld_dfault/>
+		<obf_fld_exportable/>
+		<obf_field_id.fld_exportable>1</obf_field_id.fld_exportable>
+		<obf_fld_uk/>
+		<obf_area_id.ofa_name>ISOCountry-1</obf_area_id.ofa_name>
+		<obf_area_id.ofa_position>1</obf_area_id.ofa_position>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+	</data>
+	<data>
+		<obf_object_id.obo_name>ISOCountry</obf_object_id.obo_name>
 		<obf_field_id.fld_name>isoCtyIndependent</obf_field_id.fld_name>
 		<obf_field_id.fld_type>8</obf_field_id.fld_type>
-		<obf_order>1030</obf_order>
+		<obf_order>1040</obf_order>
 		<obf_group_by/>
 		<obf_dfault_order/>
 		<obf_input/>
@@ -534,7 +650,39 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obf_object_id.obo_name>ISOCountry</obf_object_id.obo_name>
 		<obf_field_id.fld_name>isoCtyFlag</obf_field_id.fld_name>
 		<obf_field_id.fld_type>20</obf_field_id.fld_type>
-		<obf_order>1040</obf_order>
+		<obf_order>1100</obf_order>
+		<obf_group_by/>
+		<obf_dfault_order/>
+		<obf_input/>
+		<obf_ref_field_id.fld_name/>
+		<obf_ref_object_id.obo_name/>
+		<obf_cascad/>
+		<obf_card/>
+		<obf_visible/>
+		<obf_ref_export>1</obf_ref_export>
+		<obf_copy/>
+		<obf_ref_order/>
+		<obf_fld_visible/>
+		<obf_fld_required/>
+		<obf_fld_updatable/>
+		<obf_fld_research/>
+		<obf_fld_more/>
+		<obf_fld_listmore/>
+		<obf_fld_researchreq/>
+		<obf_fld_dfault/>
+		<obf_field_id.fld_dfault/>
+		<obf_fld_exportable/>
+		<obf_field_id.fld_exportable>1</obf_field_id.fld_exportable>
+		<obf_fld_uk/>
+		<obf_area_id.ofa_name>ISOCountry-1</obf_area_id.ofa_name>
+		<obf_area_id.ofa_position>1</obf_area_id.ofa_position>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+	</data>
+	<data>
+		<obf_object_id.obo_name>ISOCountry</obf_object_id.obo_name>
+		<obf_field_id.fld_name>isoCtyFlagIcon</obf_field_id.fld_name>
+		<obf_field_id.fld_type>20</obf_field_id.fld_type>
+		<obf_order>1110</obf_order>
 		<obf_group_by/>
 		<obf_dfault_order/>
 		<obf_input/>
@@ -621,6 +769,15 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<din_grant>0</din_grant>
 		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
 	</data>
+	<data>
+		<din_name>B-isoCtyFlagIcon</din_name>
+		<din_field_id.fld_name>isoCtyFlagIcon</din_field_id.fld_name>
+		<din_path/>
+		<din_min/>
+		<din_max/>
+		<din_grant>0</din_grant>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+	</data>
 </object>
 <object>
 	<name>TranslateField</name>
@@ -651,9 +808,33 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
+		<tsl_id.fld_name>isoCtyCodeNum</tsl_id.fld_name>
+		<tsl_lang>ENU</tsl_lang>
+		<tsl_value>Iso cty code num</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_placeholder/>
+		<tsl_listhelp/>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+		<tsl_tooltip/>
+	</data>
+	<data>
+		<tsl_typeField>F</tsl_typeField>
 		<tsl_id.fld_name>isoCtyFlag</tsl_id.fld_name>
 		<tsl_lang>ENU</tsl_lang>
 		<tsl_value>Flag</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_placeholder/>
+		<tsl_listhelp/>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+		<tsl_tooltip/>
+	</data>
+	<data>
+		<tsl_typeField>F</tsl_typeField>
+		<tsl_id.fld_name>isoCtyFlagIcon</tsl_id.fld_name>
+		<tsl_lang>ENU</tsl_lang>
+		<tsl_value>Flag icon</tsl_value>
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
@@ -711,9 +892,33 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
+		<tsl_id.fld_name>isoCtyCodeNum</tsl_id.fld_name>
+		<tsl_lang>FRA</tsl_lang>
+		<tsl_value>Code (num.)</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_placeholder/>
+		<tsl_listhelp/>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+		<tsl_tooltip/>
+	</data>
+	<data>
+		<tsl_typeField>F</tsl_typeField>
 		<tsl_id.fld_name>isoCtyFlag</tsl_id.fld_name>
 		<tsl_lang>FRA</tsl_lang>
 		<tsl_value>Drapeau</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_placeholder/>
+		<tsl_listhelp/>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+		<tsl_tooltip/>
+	</data>
+	<data>
+		<tsl_typeField>F</tsl_typeField>
+		<tsl_id.fld_name>isoCtyFlagIcon</tsl_id.fld_name>
+		<tsl_lang>FRA</tsl_lang>
+		<tsl_value>Icône drapeau</tsl_value>
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
@@ -796,9 +1001,23 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 	</data>
 	<data>
 		<tsl_typeDocIndex>B</tsl_typeDocIndex>
+		<tsl_id.din_name>B-isoCtyFlagIcon</tsl_id.din_name>
+		<tsl_lang>ENU</tsl_lang>
+		<tsl_value>B-iso cty flag icon</tsl_value>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+	</data>
+	<data>
+		<tsl_typeDocIndex>B</tsl_typeDocIndex>
 		<tsl_id.din_name>B-isoCtyFlag</tsl_id.din_name>
 		<tsl_lang>FRA</tsl_lang>
 		<tsl_value>B-iso cty flag</tsl_value>
+		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
+	</data>
+	<data>
+		<tsl_typeDocIndex>B</tsl_typeDocIndex>
+		<tsl_id.din_name>B-isoCtyFlagIcon</tsl_id.din_name>
+		<tsl_lang>FRA</tsl_lang>
+		<tsl_value>B-iso cty flag icon</tsl_value>
 		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
 	</data>
 </object>
@@ -809,7 +1028,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<row_module_id.mdl_name>ISOCountries</row_module_id.mdl_name>
 		<dt_name>ISOCountries-data</dt_name>
 		<dt_file>data/ISOCountries-data.zip</dt_file>
-		<dt_desc><![CDATA[Created by module's data export on 2026-05-18 17:03:15]]></dt_desc>
+		<dt_desc><![CDATA[Created by module's data export on 2026-05-18 17:40:35]]></dt_desc>
 	</data>
 </object>
 </simplicite>

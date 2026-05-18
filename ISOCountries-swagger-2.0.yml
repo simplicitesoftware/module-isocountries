@@ -271,6 +271,11 @@ paths:
         type: string
         required: false
       - in: query
+        name: isoCtyCodeNum
+        description: Search filter for Iso cty code num
+        type: string
+        required: false
+      - in: query
         name: isoCtyIndependent
         description: Search filter for Independent country?
         type: boolean
@@ -278,6 +283,11 @@ paths:
       - in: query
         name: isoCtyFlag
         description: Search filter for Flag
+        type: string
+        required: false
+      - in: query
+        name: isoCtyFlagIcon
+        description: Search filter for Flag icon
         type: string
         required: false
       tags:
@@ -434,6 +444,9 @@ definitions:
       isoCtyCode3:
         description: Country code (3 letters)
         type: string
+      isoCtyFlagIcon:
+        description: Flag icon
+        type: object
       isoCtyCode2:
         description: Country code (2 letters)
         type: string
@@ -445,6 +458,9 @@ definitions:
         type: string
       isoCtyName:
         description: Country name
+        type: string
+      isoCtyCodeNum:
+        description: Iso cty code num
         type: string
 swagger: '2.0'
 info:

@@ -52,7 +52,9 @@ ISO 3166-1 country
 |--------------------------------------------------------------|------------------------------------------|----------|-----------|----------|----------------------------------------------------------------------------------|
 | `isoCtyName`                                                 | char(100)                                | yes      | yes       |          | Country name                                                                     |
 | `isoCtyCode2`                                                | char(2)                                  | yes\*    | yes       |          | Country code (2 letters)                                                         |
-| `isoCtyCode3`                                                | char(3)                                  |          | yes       |          | Country code (3 letters)                                                         |
+| `isoCtyCode3`                                                | char(3)                                  | yes      | yes       |          | Country code (3 letters)                                                         |
+| `isoCtyCodeNum`                                              | regexp(3)                                | yes      | yes       |          | -                                                                                |
 | `isoCtyIndependent`                                          | boolean                                  | yes      | yes       |          | Independent country?                                                             |
 | `isoCtyFlag`                                                 | image                                    |          | yes       |          | -                                                                                |
+| `isoCtyFlagIcon`                                             | image                                    |          | yes       |          | -                                                                                |
 
